@@ -1,0 +1,1 @@
+{"type":"object","properties":{"action":{"type":"string","enum":["tool","final"]},"tool":{"type":"string"},"args":{"type":"string","description":"工具参数对象，JSON编码字符串。最终回答时用空对象字符串。"},"text":{"type":"string","description":"最终回答或当前操作的简短说明。"}},"required":["action","tool","args","text"],"additionalProperties":false}

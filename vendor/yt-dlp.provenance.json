@@ -1,0 +1,20 @@
+{
+  "package": "yt-dlp",
+  "version": "2026.10.26",
+  "source": "https://pypi.org/project/yt-dlp/2026.10.26/",
+  "repository": "https://github.com/yt-dlp/yt-dlp",
+  "wheel": "yt_dlp-2026.10.26-py3-none-any.whl",
+  "sha256": "a05c5b5d8562f7e8a62f5334348b406af4930d56d3a65f8021d14af0e22339ae",
+  "downloadURL": "https://files.pythonhosted.org/packages/7f/3d/16ea7d5638cf585991f2c5705e8083688dde633d32d0871f2404e0f4d827/yt_dlp-2026.10.26-py3-none-any.whl",
+  "license": "Unlicense",
+  "licensePath": "yt-dlp/yt_dlp-2026.10.26.dist-info/licenses/LICENSE",
+  "optionalDependenciesInstalled": false,
+  "installedRecordVerification": {
+    "algorithm": "sha256",
+    "hashedFilesChecked": 1059,
+    "mismatches": 0,
+    "pipTargetDataRecordRelocation": "../../bin and ../../share mapped inside target directory"
+  },
+  "reproduceInstallation": "python -m pip install --no-deps --target playground/vendor/yt-dlp yt-dlp==2026.10.26",
+  "actualAcquisition": "python -m pip install --disable-pip-version-check --no-deps --target playground/vendor/yt-dlp yt-dlp (resolved 2026.10.26)"
+}
